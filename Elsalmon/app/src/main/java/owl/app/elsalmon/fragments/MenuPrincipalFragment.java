@@ -73,7 +73,9 @@ public class MenuPrincipalFragment extends Fragment {
                         fragmentsOn(nuevoFragmento, titulo);
                         break;
                     case 2:
-                        
+                        nuevoFragmento = new ContactanosFragment();
+                        titulo = getString(R.string.contactanosSalmon);
+                        fragmentsOn(nuevoFragmento, titulo);
                         break;
                     case 3:
                         nuevoFragmento = new EncuentranosFragment();
