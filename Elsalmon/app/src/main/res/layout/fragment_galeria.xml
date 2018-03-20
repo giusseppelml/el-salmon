@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    tools:context="owl.app.elsalmon.fragments.GaleriaFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:textColor="@color/colorIcons"/>
+
+                <ImageView
+                    android:id="@+id/imagenGaleria"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_weight="8"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/salmon"/>
+
+                <!-- A RecyclerView with some commonly used attributes -->
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerViewGaleria"
+                    android:scrollbars="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="2"/>
+
+        </LinearLayout>
+
+</RelativeLayout>
+

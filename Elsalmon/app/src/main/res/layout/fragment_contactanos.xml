@@ -1,0 +1,109 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorIcons"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="owl.app.elsalmon.fragments.ContactanosFragment">
+
+    <ImageView
+        android:id="@+id/imageContactanos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/playa" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contactanosSalmon"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:background="@drawable/borde"
+                android:textColor="@color/colorIcons"/>
+
+            <EditText
+                android:id="@+id/editTextNombre"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorIcons"
+                android:hint="@string/nombres"/>
+
+            <EditText
+                android:id="@+id/editTextApellidos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorIcons"
+                android:hint="@string/apellidos"/>
+
+            <EditText
+                android:id="@+id/editTextTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorIcons"
+                android:hint="@string/numeroTelefonico"/>
+
+            <EditText
+                android:id="@+id/editTextCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorIcons"
+                android:hint="@string/correoElectronico"/>
+
+            <EditText
+                android:id="@+id/editTextEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorIcons"
+                android:hint="@string/empresaOpcional"/>
+
+            <EditText
+                android:id="@+id/editTextMensaje"
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:hint="@string/mensaje"
+                android:textColor="@color/colorIcons"
+                android:layout_weight="0.42" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/FabEnviarMensaje"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@mipmap/ic_send"
+        app:backgroundTint="@color/colorAccent"/>
+
+</FrameLayout>

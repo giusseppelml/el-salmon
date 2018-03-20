@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Pescaderia El Salmon</string>
+
+    <!-- menu -->
+    <string name="quienesSomos">SALMÓN</string>
+    <string name="servyBeneficios">SERVICIOS</string>
+    <string name="contactanosSalmon">CONTÁCTANOS</string>
+    <string name="encuentranosSalmon">UBICACIÓN</string>
+    <string name="nuestrosValores">VALORES</string>
+    <string name="misionVision">MISIÓN Y VISIÓN</string>
+    <string name="galeria">GALERIA</string>
+
+    <!-- Mision y Vision -->
+    <string name="mision">Misión</string>
+    <string name="vision">Visión</string>
+
+    <string name="misionContenidoUno">Satisfacer las necesidades alimenticias del mercado mediante el suministro de proteínas y omega 3 de origen marino.</string>
+    <string name="misionContenidoDos">Vendemos de manera responsable, promovemos el bienestar en las comunidades donde interactuamos, preservamos el ambiente y generamos valor a nuestros clientes y trabajadores, mediante una gestión moderna.</string>
+    <string name="visionContenido">Ser reconocidos en el mercado local y estatal como una corporación de vanguardia en el suministro de productos de origen marino de alto valor agregado para el consumo humano.</string>
+
+    <!-- Servicios y beneficios -->
+    <string name="beneficios">Beneficios</string>
+
+    <string name="serviciosContenidoUno">• Servicio a Domicilio</string>
+    <string name="serviciosContenidoDos">• Monedero Electrónico</string>
+    <string name="beneficiosContenido">Al adquirir nuestra tarjeta monedera usted va generando puntos los cuales usted puede canjear por mercancía además de la frescura y calidad de nuestros productos y nuestras promociones de temporada.</string>
+
+    <!-- Formulario Contactanos -->
+    <string name="nombres">Nombre(s)</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="numeroTelefonico">Número Telefónico</string>
+    <string name="correoElectronico">Correo Electrónico</string>
+    <string name="empresaOpcional">Asunto</string>
+    <string name="mensaje">Mensaje</string>
+
+    <string name="enviandoMensaje">Enviando mensaje</string>
+    <string name="esperePorFavor">Espere por favor...</string>
+    <string name="mensajeEnviado">Mensaje Enviado</string>
+
+    <!-- Advertencias del formulario -->
+    <string name="ingreseNombre">Ingrese su Nombre</string>
+    <string name="ingreseApellidos">Ingresa tus Apellidos</string>
+    <string name="ingreseTelefono">Ingrese un Número Telefónico</string>
+    <string name="ingreseCorreo">Escriba su correo electronico</string>
+    <string name="ingreseMensaje">Escriba su mensaje</string>
+
+    <!-- nuestros valores -->
+    <string name="valores">VALORES</string>
+    <string name="responsabilidad">RESPONSABILIDAD</string>
+    <string name="respeto">RESPETO</string>
+    <string name="sentidoComun">SENTIDO COMÚN</string>
+    <string name="creatividad">CREATIVIDAD</string>
+    <string name="trabajoEnEquipo">TRABAJO EN EQUIPO</string>
+
+    <!-- quienes somos -->
+    <string name="quienesSomosContenido">Somos una pescadería de calidad nos dedicamos a la venta de pescados y mariscos por mayoreo y menudeo Ofreciendo gran variedad de productos frescos y congelados tanto nacionales como de importación.</string>
+    <string name="horarios">HORARIOS DE SERVICIO</string>
+    <string name="sucursalVeracruz">Sucursal de Veracruz</string>
+    <string name="sucursalesMenOri">sucursales orizaba y Mendoza</string>
+    <string name="horasDeTrabajo">7:00 am- 5:00 pm</string>
+    <string name="lunesSabado">Lunes a Sabado</string>
+    <string name="lunesDomingo">Lunes a Domingo</string>
+
+    <!-- ubicaciones -->
+    <string name="direccionVeracruz">Sucursal de Veracruz</string>
+    <string name="direccionMendoza1">Sucursal 1 de Ciudad Mendoza</string>
+    <string name="direccionMendoza2">Sucursal 2 de Ciudad Mendoza</string>
+    <string name="direccionOrizaba">Sucursal de Orizaba</string>
+
+    <string name="leyendaUbicacion">Encuentra nuestras diferentes ubicaciones con google map al alcance de un Click.  Selecciona el lugar que deseas encontrar.</string>
+
+    <!-- productos -->
+    <string name="productos">PRODUCTOS</string>
+    <string name="almejas">almejas</string>
+    <string name="atun">atún</string>
+    <string name="bacalao">bacalao noruego</string>
+    <string name="calamares">calamares crudos y cocidos</string>
+    <string name="camarones">camarones (varios)</string>
+    <string name="filetes">filetes (varios)</string>
+    <string name="rubias">huachinango, rubias, robalito, negrillos y mas</string>
+    <string name="jaiba">jaiba</string>
+    <string name="cangrejo">mano de cangrejo</string>
+    <string name="ostiones">ostiones</string>
+    <string name="pulpo">pulpo</string>
+    <string name="salmon">salmón</string>
+    <string name="surimi">surimi</string>
+    <string name="tintaCalamar">tintas de calamar</string>
+
+</resources>

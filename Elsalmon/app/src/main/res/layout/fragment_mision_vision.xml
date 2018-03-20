@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorIcons"
+    tools:context="owl.app.elsalmon.fragments.MisionVisionFragment">
+
+    <ImageView
+        android:id="@+id/imageMivi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/playa" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.24"
+            android:src="@drawable/mision"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.12"
+            android:gravity="center"
+            android:text="@string/misionContenidoUno"
+            android:textColor="@color/colorIcons"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.20"
+            android:textStyle="bold"
+            android:textColor="@color/colorIcons"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:text="@string/misionContenidoDos" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.24"
+            android:src="@drawable/vision"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.20"
+            android:textStyle="bold"
+            android:textColor="@color/colorIcons"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:text="@string/visionContenido" />
+
+    </LinearLayout>
+
+</RelativeLayout>

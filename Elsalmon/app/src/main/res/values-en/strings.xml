@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pescaderia El Salmon</string>
+
+    <!-- menu -->
+    <string name="quienesSomos">SALMON</string>
+    <string name="servyBeneficios">SERVICES</string>
+    <string name="contactanosSalmon">CONTACT US</string>
+    <string name="encuentranosSalmon">LOCATION</string>
+    <string name="nuestrosValores">MORAL VALUES</string>
+    <string name="misionVision">MISSION AND VISION</string>
+    <string name="galeria">GALLERY</string>
+
+    <!-- Mision y Vision -->
+    <string name="mision">MISSION</string>
+    <string name="vision">VISION</string>
+
+    <string name="misionContenidoUno">To satisfy the alimentary necessities of the market by means of the supply of proteins and omega 3 of marine origin.</string>
+    <string name="misionContenidoDos">We sell responsibly, promote well-being in the communities where we interact, preserve the environment and generate value for our customers and workers, through modern, innovative and efficient management.</string>
+    <string name="visionContenido">To be recognized in the local and state market as a vanguard corporation in the supply of marine products of high added value for human consumption.</string>
+
+    <!-- Servicios y beneficios -->
+    <string name="beneficios">Benefits</string>
+
+    <string name="serviciosContenidoUno">• Home service</string>
+    <string name="serviciosContenidoDos">• Electronic Wallet</string>
+    <string name="beneficiosContenido">By acquiring our currency card you are generating points which you can exchange for merchandise as well as the freshness and quality of our products and our seasonal promotions.</string>
+
+    <!-- Formulario Contactanos -->
+    <string name="nombres">Name(s)</string>
+    <string name="apellidos">last name</string>
+    <string name="numeroTelefonico">Phone number</string>
+    <string name="correoElectronico">E-mail</string>
+    <string name="empresaOpcional">subject</string>
+    <string name="mensaje">Message</string>
+
+    <string name="enviandoMensaje">Sending message</string>
+    <string name="esperePorFavor">Please wait...</string>
+    <string name="mensajeEnviado">Message sent</string>
+
+    <!-- Advertencias del formulario -->
+    <string name="ingreseNombre">Enter your Name</string>
+    <string name="ingreseApellidos">Enter your last name</string>
+    <string name="ingreseTelefono">Enter a Phone Number</string>
+    <string name="ingreseCorreo">Write your emailo</string>
+    <string name="ingreseMensaje">Write a message</string>
+
+    <!-- nuestros valores -->
+    <string name="valores">MORAL VALUES</string>
+    <string name="responsabilidad">RESPONSIBILITY</string>
+    <string name="respeto">RESPECT</string>
+    <string name="sentidoComun">COMMON SENSE</string>
+    <string name="creatividad">CREATIVITY</string>
+    <string name="trabajoEnEquipo">TEAMWORK</string>
+
+    <!-- quienes somos -->
+    <string name="quienesSomosContenido">We are a quality fishmonger we are dedicated to the sale of fish and seafood wholesale and retail Offering a variety of fresh and frozen products both domestic and import.</string>
+    <string name="horarios">SERVICE HOURS</string>
+    <string name="sucursalVeracruz">Veracruz branch</string>
+    <string name="sucursalesMenOri">Orizaba and Mendoza branches</string>
+    <string name="horasDeTrabajo">7:00 am- 5:00 pm</string>
+    <string name="lunesSabado">from Monday to Saturday</string>
+    <string name="lunesDomingo">from Monday to Sunday</string>
+
+    <!-- ubicaciones -->
+    <string name="direccionVeracruz">Address of the city of veracruz</string>
+    <string name="direccionMendoza1">Address of the city of mendoza</string>
+    <string name="direccionMendoza2">Address of the city of mendoza</string>
+    <string name="direccionOrizaba">Address of the city Orizaba Ver.</string>
+
+    <string name="leyendaUbicacion">Find our different locations with google map within the reach of a Click. Select the place you want to find.</string>
+
+    <!-- productos -->
+    <string name="productos">PRODUCTS</string>
+    <string name="almejas">Clams</string>
+    <string name="atun">Tuna Fish</string>
+    <string name="bacalao">Norwegian Cod</string>
+    <string name="calamares">Calamari</string>
+    <string name="camarones">Prawns</string>
+    <string name="filetes">Fish fillets</string>
+    <string name="rubias">red snapper and more</string>
+    <string name="jaiba">crab</string>
+    <string name="cangrejo">mano de cangrejo</string>
+    <string name="ostiones">crab</string>
+    <string name="pulpo">octopus</string>
+    <string name="salmon">salmon</string>
+    <string name="surimi">surimi</string>
+    <string name="tintaCalamar">squid inks</string>
+
+</resources>
